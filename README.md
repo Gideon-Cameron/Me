@@ -1,6 +1,6 @@
 # What is this? 
 
-This responsibility is for shoing my works using `HTML` and `CSS` and `JS`
+This responsibility is for showing my works using webpage on `github pages` 
 
 # Source 
 
