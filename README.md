@@ -1,42 +1,122 @@
-# 💼 Personal Portfolio – Ibrahem Hasaki
 
-This is a personal portfolio website built to showcase my skills, projects, and online presence. It features smooth navigation, responsive design, and clean layout sections such as About, Skills, Work, and Contact.
+# Ibrahem Hasaki - Personal Portfolio 👨💻
 
-> 🎯 The goal is to give visitors a quick, engaging overview of who I am as a developer and professional.
+[![GitHub Deployment](https://img.shields.io/github/deployments/ibrah5em/Me/github-pages?label=Deployment)](https://ibrah5em.github.io/Me/)
+[![GitHub Issues](https://img.shields.io/github/issues/ibrah5em/Me)](https://github.com/ibrah5em/Me/issues)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
----
+A modern, responsive portfolio website showcasing my development skills, projects, and professional journey. Built with performance and user experience in mind.
 
-## 🌐 Live Demo
+![Project Preview](https://via.placeholder.com/800x400?text=Project+Preview+) <!-- Add actual screenshot URL -->
 
-<!-- Will be included if you agree -->
+## Table of Contents
 
----
+- [🚀 Live Demo](#-live-demo)
+- [🎯 Project Goal](#-project-goal)
+- [🛠 Tech Stack](#-tech-stack)
+- [✨ Features](#-features)
+- [📦 Getting Started](#-getting-started)
+- [🧑💻 Development](#-development)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
-## ⚙️ Tech Stack
+## 🚀 Live Demo
 
-- **HTML5** – Semantic and accessible structure  
-- **SCSS** – For maintainable and organized styles  
-- **CSS3** – Responsive layout and visual polish  
-- **JavaScript** – Smooth scrolling, interactive sections, and animations  
-- **Boxicons** – Clean, minimalist icon set  
+Check out the live version: [https://ibrah5em.github.io/Me/](https://ibrah5em.github.io/Me/)
 
----
+## 🎯 Project Goal
 
-## 📁 Features
+This portfolio aims to:
+- Provide visitors with an engaging overview of my technical capabilities
+- Showcase key projects and professional achievements
+- Demonstrate modern web development practices
+- Offer easy access to contact information and social profiles
 
-- Smooth scrolling and responsive layout  
-- Interactive skill bars and navigation toggle  
-- Animated entry with ScrollReveal  
-- External links to templates, social media, and contact info  
-- Easy to customize with minimal dependencies  
+## 🛠 Tech Stack
 
----
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white)
+![SASS](https://img.shields.io/badge/-SASS-CC6699?logo=sass&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![Boxicons](https://img.shields.io/badge/-Boxicons-2DDE98?logo=boxicons&logoColor=white)
+
+- **HTML5**: Semantic markup and accessible structure
+- **SCSS/CSS3**: Modern styling with CSS variables and responsive design
+- **JavaScript**: Interactive elements and smooth animations
+- **Boxicons**: Crisp icons for visual communication
+
+## ✨ Features
+
+- **Responsive Design**: Optimized for all device sizes
+- **Performance**: Fast loading times and smooth animations
+- **Interactive Elements**:
+  - Dynamic skill bars
+  - Mobile navigation toggle
+  - Smooth scroll behavior
+ 
+## 🗂 Tasks 
+
+- **Modern Animations**: ScrollReveal.js integration
+- **Contact Integration**: Direct links to social profiles
+- **SEO Optimized**: Proper meta tags and semantic HTML
 
 ## 📦 Getting Started
 
-To run locally:
+To view the project locally:
+
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/ibrah5em/Me.git
 cd Me
-open index.html
+```
+
+2. Open in your preferred browser:
+   
+```bash
+open index.html  # macOS
+start index.html # Windows
+explorer index.html # Linux
+```
+
+## 🧑💻 Development
+
+To modify or contribute:
+
+1. Install dependencies:
+```bash
+npm install
+```
+
+2. Compile SCSS:
+   
+```bash
+npm run scss
+```
+
+3. Start development server (optional):
+   
+```bash
+npm start
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+**Acknowledgements**  
+
+- [Boxicons](https://boxicons.com/) for the beautiful icons
+- [ScrollReveal](https://scrollrevealjs.org/) for smooth animations
+
