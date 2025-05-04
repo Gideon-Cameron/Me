@@ -1,5 +1,5 @@
 
-# Ibrahem Hasaki - Personal Portfolio 👨💻
+# Ibrahem Hasaki - Personal Portfolio 
 
 [![GitHub Deployment](https://img.shields.io/github/deployments/ibrah5em/Me/github-pages?label=Deployment)](https://ibrah5em.github.io/Me/)
 [![GitHub Issues](https://img.shields.io/github/issues/ibrah5em/Me)](https://github.com/ibrah5em/Me/issues)
@@ -7,7 +7,6 @@
 
 A modern, responsive portfolio website showcasing my development skills, projects, and professional journey. Built with performance and user experience in mind.
 
-![Project Preview](https://via.placeholder.com/800x400?text=Project+Preview+) <!-- Add actual screenshot URL -->
 
 ## Table of Contents
 
@@ -22,7 +21,7 @@ A modern, responsive portfolio website showcasing my development skills, project
 
 ## 🚀 Live Demo
 
-Check out the live version: [https://ibrah5em.github.io/Me/](https://ibrah5em.github.io/Me/)
+Check out the live version: [Demo](https://ibrah5em.github.io/Me/)
 
 ## 🎯 Project Goal
 
