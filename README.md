@@ -77,7 +77,7 @@ start index.html # Windows
 explorer index.html # Linux
 ```
 
-## 🧑💻 Development
+## 💻 Development
 
 To modify or contribute:
 
@@ -114,8 +114,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-**Acknowledgements**  
-
-- [Boxicons](https://boxicons.com/) for the beautiful icons
-- [ScrollReveal](https://scrollrevealjs.org/) for smooth animations
 
