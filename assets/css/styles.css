@@ -132,6 +132,7 @@ img {
     padding: 2rem;
     background-color: var(--second-color);
     transition: 0.5s;
+    background-color: var(--nav-bg); /* Changed to use nav background variable */
   }
 }
 .nav__item {
@@ -139,7 +140,7 @@ img {
 }
 .nav__link {
   position: relative;
-  color: #fff;
+  color: var(--text-color)
 }
 .nav__link:hover {
   position: relative;
@@ -157,7 +158,7 @@ img {
   color: var(--second-color);
 }
 .nav__toggle {
-  color: var(--second-color);
+  color: var(--text-color); /* Make sure toggle icon uses text color */
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -208,10 +209,11 @@ img {
   color: var(--first-color);
 }
 .home__img {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 260px;
+    position: absolute;
+    right: 1rem;
+    bottom: 5rem;  /* Changed from 0 to 5rem */
+    width: 260px;
+    z-index: 1;  /* Ensure image stays on top */
 }
 .home__blob {
   fill: var(--first-color);
@@ -348,7 +350,7 @@ img {
   color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
-  padding: 2rem 0;
+  padding: 2rem 0;  
 }
 .footer__title {
   font-size: 2rem;
@@ -452,8 +454,10 @@ img {
     padding: 8rem 0 2rem;
   }
   .home__img {
-    width: 400px;
+    position: absolute;
+    right: 2rem;
     bottom: 10%;
+    width: 260px;
   }
   .about__container {
     padding-top: 2rem;
@@ -482,5 +486,81 @@ img {
   }
   .home__img {
     width: 450px;
+  }
+}
+
+:root {
+  /* Light mode */
+  --bg-color: #ffffff;
+  --text-color: #2d2e32;
+  --nav-bg: #ffffff;
+  --skills-bg: #ffffff;
+  --footer-bg: #f0e9e9;  /* White background */
+  --footer-text: var(--second-color);  /* Original dark text */
+  --box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+}
+
+.dark-mode {
+  /* Dark mode */
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --nav-bg: #1a1a1a;
+  --skills-bg: #1e1e1e;
+  --footer-bg: #1a1a1a;  /* Dark background */
+  --footer-text: #e0e0e0;  /* Light text */
+  --second-color: #8892b0;
+  --box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Add transitions */
+body,
+.skills__data,
+.nav__link {
+  transition: all 0.3s ease;
+}
+
+/* Update elements using new variables */
+.l-header {
+  background-color: var(--nav-bg);
+  box-shadow: var(--box-shadow);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.nav__logo,
+.nav__link,
+.nav__toggle {
+  color: var(--text-color);
+}
+
+.skills__data {
+  background-color: var(--skills-bg);
+}
+
+.footer {
+    background-color: var(--footer-bg);
+    color: var(--footer-text);
+}
+#theme-button {
+  transition: transform 0.4s ease;
+}
+
+#theme-button:hover {
+  transform: scale(1.1);
+}
+
+#theme-button.spin {
+  animation: spin 0.4s ease;
+}
+
+@keyframes spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
   }
 }
