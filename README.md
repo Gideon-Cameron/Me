@@ -6,9 +6,11 @@ This is a personal portfolio website built to showcase my skills, projects, and 
 
 ---
 
+[![GitHub Pages](https://img.shields.io/badge/Live-GitHub%20Pages-blue?logo=github)](https://ibrah5em.github.io/Me/)
+
 ## 🌐 Live Demo
 
-<!-- Will be included if you agree -->
+🚀 [Click here to view the live site](https://ibrah5em.github.io/Me/)
 
 ---
 
@@ -32,7 +34,7 @@ This is a personal portfolio website built to showcase my skills, projects, and 
 
 ---
 
-## 📦 Getting Started
+## 🛠 Getting Started
 
 To run locally:
 
